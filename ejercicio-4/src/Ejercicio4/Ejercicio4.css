@@ -1,0 +1,38 @@
+.Ejercicio4-container {
+    height: 100vh;
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ejercicio4-container h2 {
+    margin: 0 0 50px 0;
+}
+
+.Ejercicio4-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Ejercicio4-container input {
+    padding: 4px;
+    border-radius: 6px;
+    border: solid 1px #414141;
+    margin: 3px 0 0 0;
+}
+
+form p {
+    margin: 15px 0 0 0;
+}
+
+
+form button {
+    width: fit-content;
+    align-self: center;
+    font-size: medium;
+    margin: 20px 0 20px 0;
+    padding: 5px 10px;
+}

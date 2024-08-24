@@ -1,0 +1,50 @@
+.main-container {
+    height: 100vh;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ejercicio5-container {
+    height: 70%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuarios-container, .tareas-container {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuarios-container li {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+
+.usuarios-container button {
+    margin: 0 0 0 10px;
+}
+
+.tareas-container li {
+    margin: 5px 0;
+}
